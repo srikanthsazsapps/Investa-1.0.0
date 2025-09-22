@@ -7,13 +7,6 @@
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
-.Logo{
-    width: 50px;
-    height: 50px;
-}
-.img6{
-    height: 800px;
-}
 
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
