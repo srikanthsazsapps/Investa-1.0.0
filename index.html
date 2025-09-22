@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RS Blue Metals - Mining and Construction Materials</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="RS Blue Metals, Aggregates, M-Sand, P-Sand, Mining, Construction Materials" name="keywords">
+    <meta content="RS Blue Metals is a pioneer in mining, specializing in Aggregates, M-Sand, and P-Sand production across Tamil Nadu since 1992." name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom CSS for Navigation -->
+    <style>
+        /* Navbar link styles */
+        .navbar-nav .nav-link {
+            color: #333;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 10px 15px;
+        }
+
+        /* Hover effect */
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+            background-color: rgba(0, 123, 255, 0.1);
+            border-radius: 5px;
+        }
+
+        /* Active state */
+        .navbar-nav .nav-link.active {
+            color: #007bff;
+            font-weight: bold;
+            background-color: rgba(0, 123, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Ensure dropdown menu items have hover effects */
+        .dropdown-menu .dropdown-item:hover {
+            color: #007bff;
+            background-color: rgba(0, 123, 255, 0.1);
+        }
+
+        /* Fix navbar background */
+        .navbar-dark.bg-white {
+            background-color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+        <div class="container px-0">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                        <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
+                        <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                        <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-instagram text-white"></i></a>
+                        <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;"></div>
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                <a href="#home" class="navbar-brand p-0 d-flex align-items-center">
+                    <img class="Logo" src="img/Logo.jpeg" alt="Logo">
+                    <h1 class="text-primary m-0 me-2">RS Blue Metals</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#products" class="nav-item nav-link">Products</a>
+                        <a href="#directors-message" class="nav-item nav-link">Director’s Message</a>
+                        <a href="#team" class="nav-item nav-link">Our Team</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <!-- <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
+                        <a href="#contact" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Get a Quote</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel" id="home">
+        <div class="header-carousel-item">
+            <div class="header-carousel-item-img-1">
+                <img src="img/img1.jpeg" class="img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-start p-3">
+                    <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Leading Mining Solutions in Tamil Nadu</h1>
+                    <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Rooted in excellence since 1992, RS Blue Metals delivers high-quality Aggregates, M-Sand, and P-Sand for sustainable construction.</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#contact">Get a Quote</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#about">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-carousel-item mx-auto">
+            <div class="header-carousel-item-img-2">
+                <img src="img/img2.jpeg" class="img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-center p-3">
+                    <h1 class="display-1 text-capitalize text-white mb-4">Premium Construction Materials</h1>
+                    <p class="mb-5 fs-5">Our advanced manufacturing ensures superior quality M-Sand and P-Sand for all your construction needs.</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#contact">Get a Quote</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#products">Explore Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-carousel-item">
+            <div class="header-carousel-item-img-3">
+                <img src="img/img3.jpeg" class="img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-end p-3">
+                    <h1 class="display-1 text-capitalize text-white mb-4">Trusted by Industry Leaders</h1>
+                    <p class="mb-5 fs-5">With a production capacity of 280 tonnes per hour, we meet large-scale demands with unmatched reliability.</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#contact">Get a Quote</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#about">About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Section -->
+   <section id="about" class="about section">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-6 position-relative align-self-start order-lg-last order-first wow fadeInLeft" data-wow-delay="0.2s">
+                <img src="img/img4.jpeg" class="img-fluid" alt="" style="height: 450px;">
+            </div>
+            <div class="col-lg-6 content order-last order-lg-first wow fadeInRight" data-wow-delay="0.3s">
+                <h3 style="padding-top: 50px;">Welcome to RS Blue Metals</h3>
+                <p>Rooted in the legacy of Pankajam Blue Metal Industry and the Pankajam Group of Companies since 1992, RS Blue Metals stands as a pioneer and market leader in the field of mining, specializing in the production of Aggregates, M-Sand, and P-Sand across Tamil Nadu.</p>
+                <ul>
+                    <li>
+                        <div>
+                            <p>Our company thrives under the guidance of a strong visionary leader, whose dynamic strategies and foresight have shaped our growth and success.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Backed by a team of highly efficient and technically skilled professionals with vast industry experience, we have built RS Blue Metals into a trusted name. Together, with innovation and dedication, we continue to set benchmarks in quality, reliability, and customer satisfaction.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- About Section End -->
+
+    <!-- About Us Section -->
+    <div class="container-fluid about bg-light py-5" id="about">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img src="img/img5.jpeg" class="img-fluid w-100 rounded-bottom" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="text-primary">About Us</h4>
+                    <h1 class="mb-4" style="font-size: medium;">RS Blue Metals traces its roots back to the legacy of the Pankajam Group of Companies and Pankajam Blue Metal Industry, a trusted name since 1992. With a strong foundation in the mining sector, RS Blue Metals has emerged as a pioneer in the production of Aggregates, M-Sand, and P-Sand across Tamil Nadu.</h1>
+                    <p class="text ps-4 mb-4">
+                        Our state-of-the-art facility is equipped with modern technology and a highly skilled team of professionals, enabling us to deliver top-quality products that meet the highest industry standards.<br><br>
+                        With a remarkable production capacity of 280 tonnes per hour, RS Blue Metals stands committed to fulfilling large-scale demands efficiently and consistently.<br><br>
+                        Guided by visionary leadership and backed by technical expertise, we continue our journey towards achieving excellence and realizing our long-term vision of becoming the most reliable and innovative leader in the mining and construction material industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us End -->
+
+    <!-- Products Start -->
+    <div class="container-fluid project" id="products">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Products</h4>
+                <h1 class="display-4">Premium Manufactured Sand</h1>
+            </div>
+            <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-img">
+                        <img src="img/img7.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <p class="text-dark fs-5 mb-3">Premium Manufactured Sand</p>
+                            <a href="#" class="h4">At RS Blue Metals, we produce 4-Stage M-Sand using the latest manufacturing techniques to ensure superior quality and consistency. Our advanced processes guarantee that both M-Sand and P-Sand meet the highest standards required for modern construction.<br>
+                                M-Sand offers a higher Fineness Modulus Index compared to natural river sand, delivering excellent workability for concrete applications. With a granulometric composition ranging from 150 microns to 3.5 mm, our M-Sand is ideally suited for a wide range of construction processes.<br>
+                                The perfect grading and rounded particle shape of our M-Sand provide enhanced strength, durability, and longevity to concrete, making it a reliable choice for sustainable construction.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-img">
+                        <img src="img/img8.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <p class="text-dark fs-5 mb-3">4 Stage P-Sand</p>
+                            <a href="#" class="h4">Our Plaster Sand is suitable for both External and Internal plastering.<br>
+                                Granulometric composition of P-Sand ranges between 150 microns to 2.25mm, ideal for block masonry and plastering purposes.<br>
+                                P-Sand is free from silt and clay particles, offering better abrasion resistance, higher unit weight, and lower permeability.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100">
+                    <div class="project-img">
+                        <img src="img/img9.jpeg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <p class="text-dark fs-5 mb-3">Aggregates</p>
+                            <a href="#" class="h4">Our team is committed to maintaining proper gradation, shape, and quality of aggregates from our manufacturing process.<br>
+                                Products offered by RS Blue Metals are 40mm, 20mm, 12mm, 6mm, Wet mix, GSB, and Dust.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+ <!-- Team Start -->
+   <div class="container-fluid team bg-light py-5" id="team">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <h4 class="text-primary">Our Team</h4>
+            <h1 class="display-4">Our Dedicated Workforce</h1>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 order-lg-first wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="team-img">
+                    <img src="img/img4.jpeg" class="img-fluid w-100 rounded" alt="Team Photo">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-last wow fadeInRight" data-wow-delay="0.3s">
+                <h3>Our Team</h3>
+                <p>At RS Blue Metals, our greatest strength lies in our people. We are backed by a highly skilled and dedicated team with extensive industrial experience in mining and the production of Aggregates, M-Sand, and P-Sand. With over a decade of expertise, we have perfected our processes and established a stringent quality control system to ensure every product meets the highest standards.</p>
+                <p>Our team’s dedication, commitment, and collaborative spirit foster growth and efficiency. By blending complementary strengths and encouraging innovation, we have built a workforce that is both competent and dynamic.</p>
+                <p>We have grown by recognizing individual capabilities and assigning responsibilities where they deliver maximum impact, thereby streamlining our production processes.</p>
+                <p>Driven by a clear vision and a well-structured plan, our team continues its mission with determination—working systematically towards success, excellence, and leadership in the industry.</p>
+                <blockquote class="blockquote">
+                    <p class="mb-0"><i class="fas fa-bullseye text-primary me-2"></i><strong>Mission:</strong> <em>“Excellence in Every Ton”</em></p>
+                </blockquote>
+                <blockquote class="blockquote">
+                    <p class="mb-0"><i class="fas fa-eye text-primary me-2"></i><strong>Vision:</strong> <em>“Pioneering Quality, Shaping Tomorrow”</em></p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Team End -->
+    <!-- Director’s Message Start -->
+    <div class="container-fluid faq py-5" id="directors-message">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="pb-5">
+                        <h1 class="display-4">Director’s Message</h1>
+                    </div>
+                    <div class="accordion bg-light rounded p-4" id="accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body my-2">
+                                <p>The continuous growth of the global construction sector has elevated mining to a position of great importance, with Aggregates, M-Sand, and P-Sand emerging as vital contributors to infrastructure development. With natural river sand becoming increasingly scarce and unsustainable, the demand for reliable alternatives has never been greater.</p>
+                                <p>As construction expands across domestic, commercial, industrial, and public sectors, the need for high-quality substitutes has driven the emergence of M-Sand and P-Sand. Although river sand imports exist, they fall far short of meeting the immense market demand. This created the necessity for locally produced, sustainable solutions.</p>
+                                <p>At this juncture, RS Blue Metals ventured into the production of Aggregates, M-Sand, and P-Sand, addressing both social responsibility and industrial needs. With deep knowledge of the industry and its challenges, we have steadily advanced towards our goal of becoming one of the nation’s most trusted and leading players in the sector.</p>
+                                <p>Our planned infrastructure expansion and new production facilities will significantly enhance our capacity. With the expertise and dedication of our skilled team, we are well-positioned to meet the ever-growing demands of the construction industry.</p>
+                                <p>With your continued trust and support, RS Blue Metals is confident of scaling new heights and contributing to stronger, sustainable growth in the construction sector.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="faq-img RotateMoveRight rounded">
+                        <img src="img/img6.jpeg" class="img6 img-fluid rounded w-100" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Director’s Message End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid contact py-5" id="contact">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary">Contact Us</h4>
+                <h1 class="display-4">Get in Touch</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <h3>Contact Information</h3>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, Chennai, Tamil Nadu, India</p>
+                    <p><i class="fas fa-phone me-2"></i>+012 345 67890</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@rsbluemetals.com</p>
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-primary btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" placeholder="Your Name">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control p-3" placeholder="Your Email">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control p-3" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary rounded-pill py-3 px-5">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <!-- <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Newsletter</h4>
+                        <p class="mb-3">Stay updated with the latest news and offers from RS Blue Metals.</p>
+                        <div class="position-relative mx-auto rounded-pill">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                            <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Explore</h4>
+                        <a href="#home"><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="#products"><i class="fas fa-angle-right me-2"></i> Products</a>
+                        <a href="#about"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="#directors-message"><i class="fas fa-angle-right me-2"></i> Director’s Message</a>
+                        <a href="#team"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                        <a href="#contact"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, Chennai, Tamil Nadu, India</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> info@rsbluemetals.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item-post d-flex flex-column">
+                        <h4 class="text-white mb-4">Popular Post</h4>
+                        <div class="d-flex flex-column mb-3">
+                            <p class="text-uppercase text-primary mb-2">Industry</p>
+                            <a href="#" class="text-body">The Rise of M-Sand in Sustainable Construction</a>
+                        </div>
+                        <div class="d-flex flex-column mb-3">
+                            <p class="text-uppercase text-primary mb-2">Innovation</p>
+                            <a href="#" class="text-body">How RS Blue Metals Ensures Quality Aggregates</a>
+                        </div>
+                        <div class="footer-btn text-start">
+                            <a href="#" class="btn btn-light rounded-pill px-4">View All Posts <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4 border-top">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-12 text-center">
+                <span class="text-light"><i class="fas fa-copyright text-light me-2"></i> 2025, RS Blue Metals Pvt. Ltd. All Rights Reserved.</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#home" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom JavaScript for Navigation -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.navbar-nav .nav-link, .footer-item a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Temporarily set active class on click
+                    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => link.classList.remove('active'));
+                    if (this.classList.contains('nav-link')) {
+                        this.classList.add('active');
+                    }
+                }
+            });
+        });
+
+        // Intersection Observer for active menu highlighting
+        const sections = document.querySelectorAll('section, .header-carousel, .container-fluid[id]');
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-20% 0px -20% 0px', // Adjusted for better detection
+            threshold: 0.3 // Increased threshold for more reliable triggering
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    const activeLink = document.querySelector(`.navbar-nav .nav-link[href="#${id}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+
+</html>
